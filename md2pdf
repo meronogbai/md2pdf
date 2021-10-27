@@ -1,0 +1,5 @@
+#!/bin/sh
+
+FILE=$(basename $1 .md)
+
+pandoc $1 -o $FILE.pdf --template eisvogel --listings --toc
