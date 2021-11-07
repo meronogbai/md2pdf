@@ -16,7 +16,8 @@ md2pdf README.md
 
 ## Tips
 
-Add the following to the top of you markdown file before running the script to annotate the pdf with metadata.
+Add the following to the top of your markdown file before running the script to annotate the generated pdf with metadata.
+
 ```
 ---
 title: "The Document Title"
